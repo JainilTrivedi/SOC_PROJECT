@@ -1,0 +1,7 @@
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\HomeAndUserLibrary\HomeAndUserLibrary\bin\Debug\HomeAndUserLibrary.dll.config
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\HomeAndUserLibrary\HomeAndUserLibrary\bin\Debug\HomeAndUserLibrary.dll
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\HomeAndUserLibrary\HomeAndUserLibrary\bin\Debug\HomeAndUserLibrary.pdb
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\HomeAndUserLibrary\HomeAndUserLibrary\obj\Debug\HomeAndUserLibrary.csproj.AssemblyReference.cache
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\HomeAndUserLibrary\HomeAndUserLibrary\obj\Debug\HomeAndUserLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\HomeAndUserLibrary\HomeAndUserLibrary\obj\Debug\HomeAndUserLibrary.dll
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\HomeAndUserLibrary\HomeAndUserLibrary\obj\Debug\HomeAndUserLibrary.pdb

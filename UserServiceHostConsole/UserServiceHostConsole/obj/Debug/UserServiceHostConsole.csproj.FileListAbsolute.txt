@@ -1,0 +1,12 @@
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\bin\Debug\UserServiceHostConsole.exe.config
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\bin\Debug\UserServiceHostConsole.exe
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\bin\Debug\UserServiceHostConsole.pdb
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\bin\Debug\HomeAndUserLibrary.dll
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\bin\Debug\HomeAndUserLibrary.pdb
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\bin\Debug\HomeAndUserLibrary.dll.config
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\obj\Debug\UserServiceHostConsole.csproj.AssemblyReference.cache
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\obj\Debug\UserServiceHostConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\obj\Debug\UserServiceHostConsole.csproj.CoreCompileInputs.cache
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\obj\Debug\UserServiceHostConsole.csproj.CopyComplete
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\obj\Debug\UserServiceHostConsole.exe
+C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\Project\UserServiceHostConsole\UserServiceHostConsole\obj\Debug\UserServiceHostConsole.pdb
