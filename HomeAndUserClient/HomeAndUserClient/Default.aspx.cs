@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using HomeAndUserClient.ServiceReference1;
+using HomeAndUserClient.ServiceReference2;
 
 namespace HomeAndUserClient
 {
@@ -16,7 +17,7 @@ namespace HomeAndUserClient
         {
 
         }
-
+        // Add User
         protected void Button1_Click(object sender, EventArgs e)
         {
             User u = new User();
@@ -39,6 +40,7 @@ namespace HomeAndUserClient
             }
         }
 
+        //Show All Users
         protected void Button2_Click(object sender, EventArgs e)
         {
             uname.Text = "";
@@ -52,6 +54,7 @@ namespace HomeAndUserClient
             GridView1.DataBind();
         }
 
+        //Show User By Id
         protected void Button3_Click(object sender, EventArgs e)
         {
             int userId = Int32.Parse(uid.Text);
@@ -66,6 +69,7 @@ namespace HomeAndUserClient
             Label5.Text = "Name: "+fetchedUser.Name+"\n" +"Email: "+fetchedUser.Email;
         }
 
+        //DeleteUser
         protected void Button4_Click(object sender, EventArgs e)
         {
             int userId = Int32.Parse(uid.Text);
@@ -90,6 +94,26 @@ namespace HomeAndUserClient
                 uid.Text = "";
             }
 
+        }
+
+        //Log In
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            string userName = uname.Text;
+            string password = pass.Text;
+            User u = client.LogInUser(userName,password);
+            
+            if(u.Name == "")
+            {
+                Label6.Text = "Invalid Username o apssword!!";
+            }
+            else
+            {
+                
+                Label6.Text = "Loged In-------> " + u;
+                Label5.Text = u.Name;
+            }
+            
         }
     }
 }

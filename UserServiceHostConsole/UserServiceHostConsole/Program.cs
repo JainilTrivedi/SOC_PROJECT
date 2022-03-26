@@ -13,13 +13,19 @@ namespace UserServiceHostConsole
         static void Main(string[] args)
         {
             Type t = typeof(UserService);
-            Uri tcp = new Uri("net.tcp://localhost:8010/UserService");
+            Type t1 = typeof(HomeService);
+            //Uri tcp = new Uri("net.tcp://localhost:8010/UserService");
+
             Uri http = new Uri("http://localhost:8000/UserService");
-            ServiceHost host = new ServiceHost(t, tcp, http);
+            Uri http1 = new Uri("http://localhost:8000/HomeService");
+            ServiceHost host = new ServiceHost(t, http);
+            ServiceHost host2 = new ServiceHost(t1,  http1);
             host.Open();
+            host2.Open();
             Console.WriteLine("Published");
             Console.ReadLine();
             host.Close();
+            host2.Close();
         }
     }
 }
