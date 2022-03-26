@@ -99,5 +99,33 @@ namespace HomeAndUserLibrary
 
             return 0;
         }
+
+        public User LogInUser(string uname,string password)
+        {
+            User u = new User();
+             
+            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\ProjectModels;Initial Catalog=SOC_PROJECT;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlCommand cmd = con.CreateCommand();
+            cmd.Connection = con;
+            
+            cmd.CommandText = "SELECT * FROM UserDetails where password='" + password + "' and name='" + uname + "'";
+            con.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                u.userId = dr.GetInt32(0);
+                u.Name = dr.GetString(1);
+                u.Email = dr.GetString(2);
+                u.Password = dr.GetString(3);
+                u.IsAdmin = dr.GetBoolean(4);
+            }
+            if(u.Name == "")
+            {
+                u.userId = -1;
+            }
+            dr.Close();
+            con.Close();
+            return u;
+        }
     }
 }

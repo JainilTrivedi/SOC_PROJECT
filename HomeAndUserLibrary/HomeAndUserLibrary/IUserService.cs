@@ -21,5 +21,10 @@ namespace HomeAndUserLibrary
         int AddUser(User user);
         [OperationContract]
         int DeleteUser(int id);
+
+        [OperationContract]
+        User LogInUser(string userName,string pass);
+
+
     }
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="034f81e5-2030-4be3-9a53-07519529275e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/HomeService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HomeService.xsd" MetadataType="Schema" ID="ce3e30de-145c-4002-a1e9-53b0769cb156" SourceId="1" SourceUrl="http://localhost:8000/HomeService?xsd=xsd0" />
+    <MetadataFile FileName="HomeService1.xsd" MetadataType="Schema" ID="472d2e6d-b45d-4d6f-b6a5-2f6225cf8bd8" SourceId="1" SourceUrl="http://localhost:8000/HomeService?xsd=xsd3" />
+    <MetadataFile FileName="HomeService2.xsd" MetadataType="Schema" ID="c72f91d3-f31e-43a7-b18e-5d49b7cda03c" SourceId="1" SourceUrl="http://localhost:8000/HomeService?xsd=xsd1" />
+    <MetadataFile FileName="HomeService3.xsd" MetadataType="Schema" ID="fad213d7-14e0-40d8-93ec-a14914512fd5" SourceId="1" SourceUrl="http://localhost:8000/HomeService?xsd=xsd2" />
+    <MetadataFile FileName="HomeService.disco" MetadataType="Disco" ID="1ece9f77-a4d7-40d5-a945-6bc991961d87" SourceId="1" SourceUrl="http://localhost:8000/HomeService?disco" />
+    <MetadataFile FileName="HomeService.wsdl" MetadataType="Wsdl" ID="cc755d1d-c40c-48b2-98c2-26e88b4caa68" SourceId="1" SourceUrl="http://localhost:8000/HomeService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

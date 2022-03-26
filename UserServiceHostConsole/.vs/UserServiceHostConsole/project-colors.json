@@ -5,6 +5,11 @@
       "ProjectGuid": "34895107-2be3-4c41-ab8c-00884c9c427e",
       "DisplayName": "UserServiceHostConsole",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

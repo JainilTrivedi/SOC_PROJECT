@@ -26,6 +26,9 @@ namespace HomeAndUserClient.ServiceReference1 {
         private string EmailField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private bool IsAdminField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string NameField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
@@ -53,6 +56,19 @@ namespace HomeAndUserClient.ServiceReference1 {
                 if ((object.ReferenceEquals(this.EmailField, value) != true)) {
                     this.EmailField = value;
                     this.RaisePropertyChanged("Email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public bool IsAdmin {
+            get {
+                return this.IsAdminField;
+            }
+            set {
+                if ((this.IsAdminField.Equals(value) != true)) {
+                    this.IsAdminField = value;
+                    this.RaisePropertyChanged("IsAdmin");
                 }
             }
         }
@@ -133,6 +149,12 @@ namespace HomeAndUserClient.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/DeleteUser", ReplyAction="http://tempuri.org/IUserService/DeleteUserResponse")]
         System.Threading.Tasks.Task<int> DeleteUserAsync(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/LogInUser", ReplyAction="http://tempuri.org/IUserService/LogInUserResponse")]
+        HomeAndUserClient.ServiceReference1.User LogInUser(string userName, string pass);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/LogInUser", ReplyAction="http://tempuri.org/IUserService/LogInUserResponse")]
+        System.Threading.Tasks.Task<HomeAndUserClient.ServiceReference1.User> LogInUserAsync(string userName, string pass);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -192,6 +214,14 @@ namespace HomeAndUserClient.ServiceReference1 {
         
         public System.Threading.Tasks.Task<int> DeleteUserAsync(int id) {
             return base.Channel.DeleteUserAsync(id);
+        }
+        
+        public HomeAndUserClient.ServiceReference1.User LogInUser(string userName, string pass) {
+            return base.Channel.LogInUser(userName, pass);
+        }
+        
+        public System.Threading.Tasks.Task<HomeAndUserClient.ServiceReference1.User> LogInUserAsync(string userName, string pass) {
+            return base.Channel.LogInUserAsync(userName, pass);
         }
     }
 }

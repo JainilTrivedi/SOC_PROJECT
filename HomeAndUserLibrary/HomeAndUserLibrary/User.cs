@@ -10,10 +10,12 @@ namespace HomeAndUserLibrary
     [DataContract]
     public class User
     {
+
         private int Id;
-        private string name;
-        private string email;
-        private string password;
+        private string name = "";
+        private string email="";
+        private string password="";
+        private bool isAdmin = false;
 
         [DataMember]
         public int userId
@@ -39,6 +41,12 @@ namespace HomeAndUserLibrary
         {
             get { return password; }
             set { password = value; }
+        }
+        [DataMember]
+        public bool IsAdmin
+        {
+            get { return isAdmin; }
+            set { isAdmin = value; }
         }
     }
 }

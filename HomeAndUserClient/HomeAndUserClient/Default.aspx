@@ -36,7 +36,7 @@
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Sign Up" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add User" />
             
             
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -45,6 +45,8 @@
             <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Get User By Id" />
 &nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Delete" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Log In" />
             <br />
             <asp:Label ID="Label6" runat="server"></asp:Label>
             <br />
