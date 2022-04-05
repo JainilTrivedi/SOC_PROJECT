@@ -18,6 +18,9 @@ namespace HomeAndUserLibrary
         DataSet getHome(string feature, int limit);
 
         [OperationContract]
+        Home getHomeWithID(int id);
+
+        [OperationContract]
         int RemoveHome(int id);
         [OperationContract]
         int AddHome(Home home);

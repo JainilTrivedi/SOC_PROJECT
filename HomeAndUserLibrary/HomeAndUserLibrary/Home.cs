@@ -10,12 +10,19 @@ namespace HomeAndUserLibrary
 {
     public class Home
     {
+        private int id;
         private string location;
         private int area;
         private int age;
         private int bhk;
         private float rent;
 
+        [DataMember]
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
         [DataMember]
         public int Age
         {

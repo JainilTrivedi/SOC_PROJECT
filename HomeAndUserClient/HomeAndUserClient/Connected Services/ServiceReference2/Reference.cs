@@ -32,6 +32,9 @@ namespace HomeAndUserClient.ServiceReference2 {
         private int BhkField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string LocationField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
@@ -87,6 +90,19 @@ namespace HomeAndUserClient.ServiceReference2 {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Location {
             get {
                 return this.LocationField;
@@ -137,6 +153,12 @@ namespace HomeAndUserClient.ServiceReference2 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHomeService2/getHome", ReplyAction="http://tempuri.org/IHomeService2/getHomeResponse")]
         System.Threading.Tasks.Task<System.Data.DataSet> getHomeAsync(string feature, int limit);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHomeService2/getHomeWithID", ReplyAction="http://tempuri.org/IHomeService2/getHomeWithIDResponse")]
+        HomeAndUserClient.ServiceReference2.Home getHomeWithID(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHomeService2/getHomeWithID", ReplyAction="http://tempuri.org/IHomeService2/getHomeWithIDResponse")]
+        System.Threading.Tasks.Task<HomeAndUserClient.ServiceReference2.Home> getHomeWithIDAsync(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IHomeService2/RemoveHome", ReplyAction="http://tempuri.org/IHomeService2/RemoveHomeResponse")]
         int RemoveHome(int id);
@@ -198,6 +220,14 @@ namespace HomeAndUserClient.ServiceReference2 {
         
         public System.Threading.Tasks.Task<System.Data.DataSet> getHomeAsync(string feature, int limit) {
             return base.Channel.getHomeAsync(feature, limit);
+        }
+        
+        public HomeAndUserClient.ServiceReference2.Home getHomeWithID(int id) {
+            return base.Channel.getHomeWithID(id);
+        }
+        
+        public System.Threading.Tasks.Task<HomeAndUserClient.ServiceReference2.Home> getHomeWithIDAsync(int id) {
+            return base.Channel.getHomeWithIDAsync(id);
         }
         
         public int RemoveHome(int id) {

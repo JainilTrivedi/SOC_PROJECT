@@ -5,6 +5,7 @@
       <xs:element minOccurs="0" name="Age" type="xs:int" />
       <xs:element minOccurs="0" name="Area" type="xs:int" />
       <xs:element minOccurs="0" name="Bhk" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
       <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Rent" type="xs:float" />
     </xs:sequence>

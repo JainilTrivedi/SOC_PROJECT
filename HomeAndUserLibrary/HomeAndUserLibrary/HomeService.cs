@@ -23,6 +23,32 @@ namespace HomeAndUserLibrary
             return ds;
         }
 
+        public Home getHomeWithID(int id)
+        {
+            Home home = new Home();
+            SqlConnection cnn = new SqlConnection(
+                @"Data Source=(localdb)\ProjectModels;Initial Catalog=SOC_PROJECT;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+                );
+            SqlCommand cmd = cnn.CreateCommand();
+            cmd.Connection = cnn;
+            cmd.CommandText = "SELECT   * FROM Home WHERE Id = @id";
+            SqlParameter param = new SqlParameter("@id", id);
+            cmd.Parameters.Add(param);
+            cnn.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+               home.Id = dr.GetInt32(0);
+               home.Location = dr.GetString(1);
+                home.Area = dr.GetInt32(2);
+                home.Age = dr.GetInt32(3);
+                home.Bhk = dr.GetInt32(4);
+                home.Rent=dr.GetInt32(5);
+            }
+            dr.Close();
+            cnn.Close();
+            return home;
+        }
         //Give some thought
         //Read
         public DataSet getHome(string feature, int limit)

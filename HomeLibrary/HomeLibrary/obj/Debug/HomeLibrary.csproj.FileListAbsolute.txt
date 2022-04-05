@@ -1,7 +1,0 @@
-C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\New folder\HomeLibrary\HomeLibrary\obj\Debug\HomeLibrary.csproj.AssemblyReference.cache
-C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\New folder\HomeLibrary\HomeLibrary\obj\Debug\HomeLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\New folder\HomeLibrary\HomeLibrary\bin\Debug\HomeLibrary.dll.config
-C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\New folder\HomeLibrary\HomeLibrary\bin\Debug\HomeLibrary.dll
-C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\New folder\HomeLibrary\HomeLibrary\bin\Debug\HomeLibrary.pdb
-C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\New folder\HomeLibrary\HomeLibrary\obj\Debug\HomeLibrary.dll
-C:\Users\Jainil\Desktop\Jainil\SEM_VI\SOC\New folder\HomeLibrary\HomeLibrary\obj\Debug\HomeLibrary.pdb

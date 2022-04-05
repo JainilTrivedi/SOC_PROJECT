@@ -155,6 +155,12 @@ namespace HomeAndUserClient.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/LogInUser", ReplyAction="http://tempuri.org/IUserService/LogInUserResponse")]
         System.Threading.Tasks.Task<HomeAndUserClient.ServiceReference1.User> LogInUserAsync(string userName, string pass);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/UpdateUser", ReplyAction="http://tempuri.org/IUserService/UpdateUserResponse")]
+        int UpdateUser(int id, HomeAndUserClient.ServiceReference1.User user);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IUserService/UpdateUser", ReplyAction="http://tempuri.org/IUserService/UpdateUserResponse")]
+        System.Threading.Tasks.Task<int> UpdateUserAsync(int id, HomeAndUserClient.ServiceReference1.User user);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -222,6 +228,14 @@ namespace HomeAndUserClient.ServiceReference1 {
         
         public System.Threading.Tasks.Task<HomeAndUserClient.ServiceReference1.User> LogInUserAsync(string userName, string pass) {
             return base.Channel.LogInUserAsync(userName, pass);
+        }
+        
+        public int UpdateUser(int id, HomeAndUserClient.ServiceReference1.User user) {
+            return base.Channel.UpdateUser(id, user);
+        }
+        
+        public System.Threading.Tasks.Task<int> UpdateUserAsync(int id, HomeAndUserClient.ServiceReference1.User user) {
+            return base.Channel.UpdateUserAsync(id, user);
         }
     }
 }

@@ -1,0 +1,225 @@
+﻿++Solution 'HomeAndUserClient' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:HomeAndUserClient.sln
+++HomeAndUserClient
+i:{00000000-0000-0000-0000-000000000000}:HomeAndUserClient
+++Connected Services
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\connected services\
+++ServiceReference1
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\connected services\servicereference1\
+++ServiceReference2
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\connected services\servicereference2\
+++Properties
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\properties\
+++References
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++Content
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\
+++Scripts
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\
+++AddPG.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\addpg.aspx
+++AdminPage.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\adminpage.aspx
+++Default.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\default.aspx
+++Home.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\home.aspx
+++HomePage.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\homepage.aspx
+++Login.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\login.aspx
+++packages.config
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\packages.config
+++SignUp.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\signup.aspx
+++UpdatePG.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\updatepg.aspx
+++UpdateUser.aspx
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\updateuser.aspx
+++Web.config
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\web.config
+++DataSources
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\properties\datasources\
+++AssemblyInfo.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\properties\assemblyinfo.cs
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++Microsoft.CSharp
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.ComponentModel.DataAnnotations
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Configuration
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Core
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Data
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Data.DataSetExtensions
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Drawing
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.EnterpriseServices
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Runtime.Serialization
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.ServiceModel
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Web
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Web.ApplicationServices
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Web.DynamicData
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Web.Entity
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Web.Extensions
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Web.Services
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Xml
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++System.Xml.Linq
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:
+++bootstrap-grid.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap-utilities.rtl.min.css.map
+++bootstrap.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.css
+++bootstrap.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.css.map
+++bootstrap.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.min.css
+++bootstrap.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\content\bootstrap.rtl.min.css.map
+++bootstrap.bundle.js
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.bundle.min.js
+++bootstrap.bundle.min.js.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.bundle.min.js.map
+++bootstrap.esm.js
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.esm.min.js.map
+++bootstrap.js
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.js
+++bootstrap.js.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.js.map
+++bootstrap.min.js
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.min.js
+++bootstrap.min.js.map
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\scripts\bootstrap.min.js.map
+++AddPG.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\addpg.aspx.cs
+++AddPG.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\addpg.aspx.designer.cs
+++AdminPage.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\adminpage.aspx.cs
+++AdminPage.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\adminpage.aspx.designer.cs
+++Default.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\default.aspx.cs
+++Default.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\default.aspx.designer.cs
+++Home.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\home.aspx.cs
+++Home.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\home.aspx.designer.cs
+++HomePage.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\homepage.aspx.cs
+++HomePage.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\homepage.aspx.designer.cs
+++Login.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\login.aspx.cs
+++Login.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\login.aspx.designer.cs
+++SignUp.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\signup.aspx.cs
+++SignUp.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\signup.aspx.designer.cs
+++UpdatePG.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\updatepg.aspx.cs
+++UpdatePG.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\updatepg.aspx.designer.cs
+++UpdateUser.aspx.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\updateuser.aspx.cs
+++UpdateUser.aspx.designer.cs
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\updateuser.aspx.designer.cs
+++Web.Debug.config
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\web.debug.config
+++Web.Release.config
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\web.release.config
+++System.Data.DataSet.datasource
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\properties\datasources\system.data.dataset.datasource
+++Styles
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\styles\
+++Style.css
+++Style.css.bak
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\styles\style.css.bak
+++Navbar_table.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\styles\navbar_table.css
+++Inputs.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\styles\inputs.css
+++Forms.css
+i:{6e5fec5f-5b0b-46e6-8b6e-e9488c47f260}:c:\users\jainil\desktop\jainil\sem_vi\soc\new folder\homeanduserclient\homeanduserclient\styles\forms.css

@@ -19,12 +19,15 @@ namespace HomeAndUserLibrary
 
         [OperationContract]
         int AddUser(User user);
+
         [OperationContract]
         int DeleteUser(int id);
 
         [OperationContract]
         User LogInUser(string userName,string pass);
 
+        [OperationContract]
+        int UpdateUser(int id, User user);
 
     }
 }

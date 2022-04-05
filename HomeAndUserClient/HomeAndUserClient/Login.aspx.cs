@@ -15,7 +15,8 @@ namespace HomeAndUserClient
         {
             if (Convert.ToInt32(Request.QueryString["error"]) == 1)
             {
-                Label1.Text = "Invalid User anme or password!";
+                Label1.ForeColor = System.Drawing.Color.Red;
+                Label1.Text = "User with this username or email already exists!! ";
             }
         }
 
@@ -24,7 +25,15 @@ namespace HomeAndUserClient
             string userName = uname.Text;
             string password = pass.Text;
             User u = client.LogInUser(userName, password);
-
+            if (u.IsAdmin == true)
+            {
+                Session["isAdmin"] = "true";
+            }
+            else
+            {
+                Session["isAdmin"] = "false";
+            }
+            
             Session["userId"] = u.userId;
             if (u.userId == -1)
             {
@@ -32,6 +41,10 @@ namespace HomeAndUserClient
             }
             Session["userName"] = u.Name;
             Session["userEmail"] = u.Email;
+            if (u.IsAdmin)
+            {
+                Response.Redirect("~/AdminPage.aspx");
+            }
             Response.Redirect("~/HomePage.aspx");
         }
     }
