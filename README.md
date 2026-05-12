@@ -1,4 +1,4 @@
-# Apartment Finder — Dual-Stack Implementation
+# Apartment Finder
 
 A full-stack Apartment Finder application built in **C# / ASP.NET** — to demonstrate the SOC system design.
 
